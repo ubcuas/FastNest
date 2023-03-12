@@ -1,12 +1,12 @@
-<img src="https://deepnest.io/img/logo-large.png" alt="Deepnest" width="250">
+**FastNest**: A UAS fork of DeepNest.io. FastNest is a MORE robust nesting tool for laser cutters and other CNC tools.
 
-**Deepnest**: A fast, robust nesting tool for laser cutters and other CNC tools
+We added the following features so far:
+- Automatic Solidworks attribution removal for DXF imports (TODO: push this change)
 
-**Download:** https://deepnest.io
+### Running in Development:
+> npm install --save-dev electron
+>
+> npm start
 
-Deepnest is a desktop application based on [SVGNest](https://github.com/Jack000/SVGnest)
-
-- new nesting engine with speed critical code written in C
-- merges common lines for laser cuts
-- support for DXF files (via conversion)
-- new path approximation feature for highly complex parts
+### Production Installation:
+Coming soon .....
